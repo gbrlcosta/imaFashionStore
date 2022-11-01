@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid var(--gray-500);
+  gap: 2rem;
+  padding: 0.5rem;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.productImage {
+  width: 5rem;
+}
+
+.card img {
+  width: 6rem;
+}
+
+.photo i {
+  cursor: pointer;
+  font-size: 2rem;
+  color: black;
+}
+
+.photo i:hover {
+  color: red;
+}
+
+.card .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card .text p {
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,6 @@
+@media (min-width: 1024px) {
+  .colA {
+    align-self: center;
+    margin-left: 5rem;
+  }
+}

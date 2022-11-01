@@ -1,0 +1,27 @@
+.Stat {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: var(--pink-100);
+  box-shadow: 0 1px 10px 0 var(--pink-300);
+  border-radius: 5px;
+  padding: 1rem;
+
+  min-width: 15rem;
+}
+
+.Stat h1 {
+  color: var(--pink-700);
+  line-height: 130%;
+  font-size: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.Stat p {
+  margin: 0;
+  line-height: 150%;
+  color: var(--gray-700);
+  font-size: 1.2rem;
+}

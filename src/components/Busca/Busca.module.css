@@ -1,0 +1,30 @@
+.searchSection {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90vw;
+
+  gap: 2rem;
+  align: center;
+}
+
+.input {
+  margin-inline: auto;
+  border: 1px solid var(--pink-700);
+  border-radius: 3px;
+  display: flex;
+  width: 70vw;
+  margin-top: 5rem;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.input::placeholder {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.product {
+  font-size: 2rem;
+}

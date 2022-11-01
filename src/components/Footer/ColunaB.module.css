@@ -1,0 +1,20 @@
+div .colB {
+  justify-content: flex-start;
+}
+
+.colB {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .colB {
+    align-self: center;
+    justify-self: flex-end;
+    margin-right: 5rem;
+  }
+}

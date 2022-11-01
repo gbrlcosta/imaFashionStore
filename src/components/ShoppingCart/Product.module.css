@@ -1,0 +1,125 @@
+.product {
+  border: 1px solid var(--pink-700);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 90vw;
+  height: 200px;
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+.productPhotoBox {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+
+  padding-top: 0.2rem;
+  height: 200px;
+  width: 40%;
+  padding: 1rem;
+}
+
+.buttonRemoveItem {
+  display: flex;
+  cursor: pointer;
+  background: var(--pink-100);
+  align-items: center;
+  border: none;
+  overflow: hidden;
+}
+
+.buttonRemoveItem:hover {
+  color: red;
+}
+
+.removeProduct {
+  font-size: 0.8rem;
+}
+
+.phTrash {
+  font-size: 1.2rem;
+  padding-top: 0.2rem;
+}
+
+.descrition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  gap: 0.5rem;
+}
+
+.titlePhoto {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--pink-700);
+}
+
+.size {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.amount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+
+  gap: 0.1em;
+}
+
+.plusOrMinus {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.2em;
+}
+
+.buttonPlus,
+.buttonMinus {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.buttonPlus:hover {
+  color: green;
+}
+.buttonMinus:hover {
+  color: red;
+}
+
+.products h2 {
+  text-align: center;
+}
+
+.size h3 {
+  background-color: var(--pink-300);
+  padding-inline: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .product {
+    width: 50vw;
+  }
+
+  .amount {
+    display: flex;
+    flex-direction: row;
+  }
+}

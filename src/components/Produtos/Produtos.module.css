@@ -1,0 +1,78 @@
+.shopsection {
+  display: grid;
+  grid-template-areas: "a b c";
+  justify-items: center;
+  gap: 3.2rem;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.shopsection h3,
+.shopsection p {
+  color: black;
+}
+
+.shopsection p {
+  font-size: 1.2rem;
+}
+
+.shopsection h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.carditem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--pink-200);
+  width: 14rem;
+  height: 26rem;
+
+  border-radius: 0.6rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.carditem:hover {
+  box-shadow: 0 1px 10px 0 var(--pink-300);
+}
+
+.carditem img {
+  opacity: 1;
+
+  width: 14rem;
+  height: 250px;
+  border-radius: 0.6rem;
+}
+
+.carditem a {
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.addproductbtn {
+  margin-top: 0.5rem;
+  background: var(--pink-700);
+  border-radius: 0.6rem;
+  border: none;
+
+  width: 6rem;
+  height: 2rem;
+  font-size: 0.7rem;
+
+  cursor: pointer;
+  color: var(--pink-100);
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.addproductbtn:hover {
+  background: var(--pink-600);
+}
+
+@media (max-width: 800px) {
+  .shopsection {
+    display: flex;
+  }
+}

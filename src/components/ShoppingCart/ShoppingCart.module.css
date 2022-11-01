@@ -1,0 +1,215 @@
+/* ===== CAR ===== */
+
+.scMenu {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+}
+
+.totalLabel {
+  display: flex;
+  justify-content: center;
+}
+
+.scMenu h1 {
+  font-size: 1.2rem;
+}
+
+.subtotal {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+  gap: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.finish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  background: var(--pink-700);
+  font-size: 1.4rem;
+
+  width: 320px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+
+  letter-spacing: 0.15rem;
+  margin-top: 2rem;
+}
+
+.finish:hover {
+  cursor: pointer;
+  color: var(--pink-700);
+  background-color: var(--pink-600);
+  color: white;
+}
+
+.moreProducts {
+  text-decoration: none;
+  font-size: 1rem;
+  margin-block: 20px;
+  color: var(--pink-700);
+  cursor: pointer;
+  opacity: 1;
+}
+
+.moreProducts:hover {
+  opacity: 0.8;
+}
+
+/* ===== PRODUCT ======*/
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+  overflow-y: scroll;
+}
+
+.products::-webkit-scrollbar {
+  display: none;
+}
+
+.product {
+  border: 1px solid var(--pink-700);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  width: 95%;
+  height: 250px;
+  border-radius: 0.6rem;
+}
+
+.productPhotoBox {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 0.2rem;
+  height: 250px;
+  width: 40%;
+  padding: 1rem 0.5rem 0 0;
+}
+
+.buttonRemoveItem {
+  display: flex;
+  cursor: pointer;
+  background: var(--pink-100);
+  align-items: center;
+  border: none;
+}
+
+.buttonRemoveItem:hover {
+  color: red;
+}
+
+.removeProduct {
+  font-size: 0.8rem;
+}
+
+.phTrash {
+  font-size: 1.2rem;
+  padding-top: 0.2rem;
+}
+
+.descrition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  gap: 0.5rem;
+}
+
+.titlePhoto {
+  font-size: 1.8rem;
+  line-height: 21px;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--pink-700);
+}
+
+.creditCard {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  gap: 0.5rem;
+}
+
+.phCreditCard {
+  font-size: 2.5rem;
+  color: var(--pink-700);
+}
+
+.size {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1em;
+}
+
+.spaceQuantity {
+  width: 2.5ren;
+}
+
+.plusOrMinus {
+  display: flex;
+  cursor: pointer;
+  gap: 0.1em;
+}
+
+.buttonPlus,
+.buttonMinus {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.phMinusCircle {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.phPlusCircle {
+  display: flex;
+}
+
+.products h2 {
+  text-align: center;
+}
+
+.size h3 {
+  background-color: var(--pink-300);
+  padding-inline: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}

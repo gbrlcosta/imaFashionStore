@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--pink-700);
+  padding-block: 2rem;
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding-block: 2rem;
+  }
+}

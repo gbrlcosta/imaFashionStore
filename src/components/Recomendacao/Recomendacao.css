@@ -1,0 +1,60 @@
+.recomendacaoContainer {
+  max-width: 110vw;
+  height: 780px;
+  padding: 180px 60px 1px 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.recomendacaoTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 3rem;
+  color: var(--pink-700);
+}
+
+.recomendacaoContainer .arrowScroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 3.2rem;
+  scroll-behavior: smooth;
+}
+
+.recomendacaoContainer .buttons button {
+  padding: 20px 100px 20px 0px;
+  color: var(--pink-700);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.recomendacaoContainer .arrowScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.recomendacaoContainer .buttons {
+  width: 100%;
+  text-align: center;
+}
+
+.recomendacaoName {
+  color: var(--pink-700);
+  padding: 2.5em;
+}
+
+@media (max-width: 800px) {
+  .recomendacaoContainer {
+    padding: 175px 50px 2px 50px;
+  }
+
+  .recomendacaoContainer .arrowScroll {
+    padding-left: 2rem;
+    width: 280px;
+    height: 490px;
+  }
+
+  .recomendacaoContainer .buttons button {
+    padding: 25px;
+  }
+}

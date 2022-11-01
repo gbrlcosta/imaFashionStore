@@ -1,0 +1,39 @@
+:root {
+  --pink-700: #7f004a;
+  --pink-600: #dd57a5;
+  --pink-300: #eb9ac9;
+  --pink-200: #f7d8ea;
+  --pink-100: #fef8fb;
+
+  --gray-700: #061800;
+  --gray-500: #384633;
+
+  --white: #ffffff;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--green-500);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: var(--pink-100);
+  color: var(--gray-700);
+  -webkit-font-smoothing: antialiased; /* para aplicar nos navegadores baseados em webkit uma padronização em que as fontes fiquem mais detalhadas, usar principalmente para fontes que não são padrão do sistema */
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 62.5%; /* 1rem = 10px */
+}

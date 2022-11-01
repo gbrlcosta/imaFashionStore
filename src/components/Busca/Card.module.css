@@ -1,0 +1,34 @@
+.product {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: var(--gray-700);
+  width: 30rem;
+  margin: 2rem auto;
+  border: 2px solid var(--pink-700);
+  border-radius: 10px;
+}
+
+.item {
+  border-radius: 9px;
+  width: 8rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 1.5rem;
+}
+
+.titlePhoto {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.creditcard {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}

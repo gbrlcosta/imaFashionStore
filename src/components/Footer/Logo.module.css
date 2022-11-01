@@ -1,0 +1,12 @@
+.darkLogo {
+  width: 20rem;
+  
+}
+
+.darkLogo img {
+  max-width: 100%;
+}
+
+.darkLogo a {
+  cursor: pointer;
+}
