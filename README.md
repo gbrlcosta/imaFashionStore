@@ -1,6 +1,5 @@
 # Imã Fashion App
 
-## Link da aplicação: [https://imafashion.netlify.app/](https://imafashion.netlify.app/)
 
 ![image](https://user-images.githubusercontent.com/92322675/182160807-55f27c52-bb3c-46cd-949a-9b8368aa36fc.png)
 ![image](https://user-images.githubusercontent.com/92322675/182160830-130e38ee-ed29-422d-ad9d-02752d4e11ef.png)
